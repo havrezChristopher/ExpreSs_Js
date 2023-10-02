@@ -8,8 +8,12 @@
   "version": "1.0.0",
   "description": "Intro Express",
   "main": "serveur.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "scripts": {
+    "prod": "node server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "christopher Havrez",
